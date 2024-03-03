@@ -6,16 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
 li {
-    list-style: none; /* Remove default list styles */
-  }
+    list-style: none;  Remove default list styles 
   
-li::marker {
-    /* Your custom styles for the marker */
+  
+li::marker 
+     Your custom styles for the marker 
     text-align: start;
-    color: red; /* Example: Change marker color to red */
-  }
+    color: red;  Example: Change marker color to red 
+   */
 body {
   background-color: #282c34;
   color: white;
@@ -38,6 +38,20 @@ body {
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
+}
+.allTodo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.showForm {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  background-color: #005a4b;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
   .TodoForm {
     width: 100%;
@@ -66,18 +80,6 @@ body {
     padding: 0.5rem 1rem;
     width: 300px;
     color: #fff;
-  }
-  .showForm {
-    display: flex;
-    align-items: center;
-    padding: 0rem 1rem;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    background: #005a4b;
-    color: #fff;
-    width: 100%;
-    margin-bottom: 1rem;
-
   }
   .Todo {
     display: flex;

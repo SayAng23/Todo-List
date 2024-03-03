@@ -23,6 +23,7 @@ const TodoList = ({ todo, setTodo, editTodo, setEditTodo }) => {
     
     <div>
       {todo.map((todo) => (
+        <lu className="allTodo">
         <li className="showForm" key={todo.id}>
           <input
             type="text"
@@ -39,6 +40,7 @@ const TodoList = ({ todo, setTodo, editTodo, setEditTodo }) => {
           </button>
           </div>
         </li>
+        </lu>
       ))}
     </div>
   );
